@@ -149,7 +149,7 @@ const { products, addItem } = useContext(ProductContext);
 
 We have now successfully converted our application into using `Context API` 🔥
 
-**MVP Requirements**
+\*_MVP Requirements_
 
 - Create a `ProductContext` and a `CartContext`
 - Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
@@ -165,6 +165,7 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 - Persist Cart Items using `localStorage`. (If you try this one, it will be a bit tricky to get our items to populate the shopping cart on a refresh. You'll have to think about where the data actually lives, and how you can get data there from localStorage when the app is being mounted after a refresh. Good luck!)
 
 ### Submission Format
+
 - [ ] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
 - [ ] Connect your fork to Codegrade using the "Connect Git" button.
 - [ ] Find your newly created fork from the list and push your work to main.
